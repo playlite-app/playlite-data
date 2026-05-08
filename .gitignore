@@ -1,0 +1,8 @@
+# Datasets
+raw/
+processed/
+output/
+
+# Python
+venv/
+__pycache__/

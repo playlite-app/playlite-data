@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-01-25T21:47:15.000119",
+  "filters_applied": {
+    "min_user_reviews": 100,
+    "min_positive_ratio": 70,
+    "min_user_reviews_per_user": 2,
+    "min_hours_played": 2
+  },
+  "raw_data": {
+    "total_games": 50872,
+    "total_users": 14306064,
+    "total_reviews": 41154794,
+    "total_metadata_entries": 50872
+  },
+  "filtered_data": {
+    "total_games": 14319,
+    "total_users": 6208032,
+    "total_reviews": 25218463,
+    "total_metadata_entries": 14319
+  },
+  "reduction": {
+    "games_removed": 36553,
+    "games_removed_pct": 71.9,
+    "users_removed": 8098032,
+    "users_removed_pct": 56.6,
+    "reviews_removed": 15936331,
+    "reviews_removed_pct": 38.7,
+    "metadata_removed": 36553,
+    "metadata_removed_pct": 71.9
+  },
+  "statistics": {
+    "avg_reviews_per_game": 1761.19,
+    "avg_reviews_per_user": 4.06,
+    "avg_hours_per_review": 101.83
+  }
+}

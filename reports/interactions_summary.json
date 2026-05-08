@@ -1,0 +1,30 @@
+{
+  "generated_at": "2026-01-25T22:26:09.353637",
+  "normalization": {
+    "max_hours_cap": 50.0,
+    "method": "min(hours / max_cap, 1.0)"
+  },
+  "matrix_stats": {
+    "unique_users": 5993757,
+    "unique_games": 12042,
+    "total_interactions": 25218450,
+    "matrix_density_pct": 0.0349,
+    "sparsity_pct": 99.9651,
+    "avg_interactions_per_user": 4.21,
+    "avg_interactions_per_game": 2094.21
+  },
+  "interaction_value_stats": {
+    "min": 0.04,
+    "max": 1.0,
+    "mean": 0.6128,
+    "median": 0.646,
+    "std": 0.3726
+  },
+  "hours_stats": {
+    "min": 2.0,
+    "max": "capped at 50.0",
+    "mean": "represented in interaction_value",
+    "note": "Original hours were normalized to [0,1] range"
+  },
+  "note": "This interaction matrix represents Steam dataset only. User favorites and ratings from Playlite will be applied as weights during recommendation aggregation."
+}

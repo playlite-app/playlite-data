@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-01-29T11:43:30.102023",
+  "parameters": {
+    "top_k_similar": 20,
+    "min_shared_users": 20,
+    "min_similarity_score": 0.1
+  },
+  "computation_stats": {
+    "unique_pairs": 3935,
+    "symmetric_entries": 7479,
+    "reduction_pct": -90.06,
+    "games_with_similarities": 2478,
+    "avg_similarities_per_game": 3.02
+  },
+  "score_statistics": {
+    "cosine_similarity": {
+      "min": 0.1,
+      "max": 0.8462,
+      "mean": 0.1907,
+      "median": 0.1546
+    },
+    "final_score": {
+      "min": 0.0063,
+      "max": 0.4621,
+      "mean": 0.0647,
+      "median": 0.0437
+    },
+    "shared_users": {
+      "min": 20,
+      "max": 15700,
+      "mean": 359.34,
+      "median": 58
+    }
+  }
+}

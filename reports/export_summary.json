@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-01-29T14:45:57.269876+00:00",
+  "source_file": "similarity_raw.parquet",
+  "output_file": "collaborative_index.json",
+  "version": "cf-item-item-v1",
+  "parameters": {
+    "top_k": 10,
+    "min_score": 0.01,
+    "normalization": "per_game_max"
+  },
+  "input_data": {
+    "total_entries": 7479,
+    "unique_games_origin": 2478,
+    "unique_games_similar": 2474,
+    "score_stats": {
+      "min": 0.0063,
+      "max": 0.4621,
+      "mean": 0.0647,
+      "median": 0.0437
+    }
+  },
+  "output_data": {
+    "games_with_similars": 2349,
+    "games_filtered": 129,
+    "total_pairs_exported": 6162,
+    "coverage_pct": 94.79,
+    "similars_per_game": {
+      "min": 1,
+      "max": 10,
+      "mean": 2.62,
+      "median": 2
+    },
+    "normalized_scores": {
+      "min": 0.0328,
+      "max": 1.0,
+      "mean": 0.6999,
+      "median": 0.7647
+    }
+  },
+  "file_stats": {
+    "size_mb": 0.46,
+    "estimated_memory_rust_mb": 125.59
+  },
+  "quality_metrics": {
+    "avg_similars_per_game": 2.62,
+    "games_with_full_topk": 129,
+    "games_with_full_topk_pct": 5.49
+  },
+  "recommendations": [
+    {
+      "severity": "success",
+      "message": "Qualidade excelente! Boa cobertura e quantidade de similares."
+    }
+  ]
+}
